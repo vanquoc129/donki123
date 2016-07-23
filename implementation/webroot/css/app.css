@@ -2,3 +2,7 @@
     Created on : Jul 23, 2016, 1:50:22 PM
     Author     : quocvl
 */
+body{
+    background-image: url('../img/background2.jpg');
+    background-repeat: repeat;
+}
