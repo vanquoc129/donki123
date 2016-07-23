@@ -1,0 +1,3 @@
+
+msgid "Web Title"
+mststr "Tiêu đề trang web"

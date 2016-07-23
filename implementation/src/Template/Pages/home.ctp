@@ -48,6 +48,8 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
     </header>
     <div id="content">
         <div class="row">
+        </div>
+        <div class="row">
             <div class="columns large-12 ctp-warning checks">
                 Please be aware that this page will not be shown if you turn off debug mode unless you replace src/Template/Pages/home.ctp with your own version.
             </div>
