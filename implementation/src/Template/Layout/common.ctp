@@ -8,7 +8,7 @@
         </title>
 
         <?= $this->Html->meta('icon') ?>
-
+        <?= $this->Html->css('bootstrap.min', ['block' => 'top_css']); ?>
         <?=
         $this->Html->css([
             'style',
@@ -19,6 +19,7 @@
         <?=
         $this->Html->script([
             'jquery-3.1.0.min',
+            'bootstrap.min'
                 ], ['block' => 'top_js']);
         ?>
 
