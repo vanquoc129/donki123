@@ -42,7 +42,7 @@ class AppController extends Controller
         parent::initialize();
         
         // Set defaut layout of web site
-         $this->viewBuilder()->layout('donki123_default');
+         $this->viewBuilder()->layout('common');
         
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
