@@ -13,7 +13,7 @@
         <?=
         $this->Html->css([
             'style',
-            'donki123_layout'
+            'app'
                 ], [block => 'bottom_css'])
         ?>
 
@@ -24,7 +24,7 @@
                 ], [block => 'top_js']);
         ?>
 
-        <?= $this->Html->script('donki123_defaut', [block => 'bottom_js']) ?>
+        <?= $this->Html->script('app', [block => 'bottom_js']) ?>
 
         <?= $this->fetch('meta') ?>
         <?= $this->fetch('top_css') ?>
